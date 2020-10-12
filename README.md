@@ -1,6 +1,5 @@
 # Py-City Schools
-
-
+![](/Images/education.png)
 
 ## PyCity Schools Analysis
 
