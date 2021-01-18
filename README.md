@@ -1,12 +1,11 @@
-# Py-City Schools
+# Py-City Schools Analysis
 
 
-
-## PyCity Schools Analysis
 
 - As a whole, schools with higher budgets, did not yield better test results. By contrast, schools with higher spending per student actually ($645- $675) underperformed compared to schools with smaller budgets ($585 per student).
 - As a whole, smaller and medium sized schools dramatically out-performed large sized schools on passing math performances (89-91% passing vs 67%).
 - As a whole, charter schools out-performed the public district schools across all metrics. However, more analysis will be required to glean if the effect is due to school practices or the fact that charter schools tend to serve smaller student populations per school.
+- 
 
 ### Dependencies and Starter Code
 
@@ -67,16 +66,16 @@ memory usage: 3.6+ MB
 
 # District Summary
 
-- Calculate the total number of schools
-- Calculate the total number of students
-- Calculate the total budget
-- Calculate the average math score
-- Calculate the average reading score
-- Calculate the percentage of students with a passing math score (70 or greater)
-- Calculate the percentage of students with a passing reading score (70 or greater)
-- Calculate the percentage of students who passed math **and** reading (% Overall Passing)
-- Create a dataframe to hold the above results
-- Optional: give the displayed data cleaner formatting
+- Calculated the total number of schools
+- Calculated the total number of students
+- Calculated the total budget
+- Calculated the average math score
+- Calculated the average reading score
+- Calculated the percentage of students with a passing math score (70 or greater)
+- Calculated the percentage of students with a passing reading score (70 or greater)
+- Calculated the percentage of students who passed math **and** reading (% Overall Passing)
+- Created a data-frame to hold the above results
+- Gave the displayed data cleaner formatting
 
 ### Calculation for District Summary (Totals, Averages, Percentages)
 
@@ -88,7 +87,7 @@ memory usage: 3.6+ MB
 
 # School Summary
 
-- Create an overview table that summarizes key metrics about each school, including:
+- Created an overview table that summarizes key metrics about each school, including:
   - School Name
   - School Type
   - Total Students
@@ -99,7 +98,7 @@ memory usage: 3.6+ MB
   - % Passing Math
   - % Passing Reading
   - % Overall Passing (The percentage of students that passed math **and** reading.)
-- Create a dataframe to hold the above results
+- Created a data-frame to hold the above results
 
 
 
@@ -127,7 +126,7 @@ memory usage: 3.6+ MB
 
 ## Top Performing Schools (By % Overall Passing)
 
-- Sort and display the top five performing schools by % overall passing.
+- Sorted and displayed the top five performing schools by % overall passing.
 
 |                     | School Type | Total Students | Total School Budget | Per Student Budget | Avg Math Score | Avg Reading Score | Passing Math % | Passing Reading % | Overall Passing % |
 | ------------------: | ----------: | -------------: | ------------------: | -----------------: | -------------: | ----------------: | -------------: | ----------------: | ----------------: |
@@ -141,7 +140,7 @@ memory usage: 3.6+ MB
 
 ## Bottom Performing Schools (By % Overall Passing)
 
-- Sort and display the five worst-performing schools by % overall passing.
+- Sorted and displayed the five worst-performing schools by % overall passing.
 
 |                       | School Type | Total Students | Total School Budget | Per Student Budget | Avg Math Score | Avg Reading Score | Passing Math % | Passing Reading % | Overall Passing % |
 | --------------------: | ----------: | -------------: | ------------------: | -----------------: | -------------: | ----------------: | -------------: | ----------------: | ----------------: |
@@ -155,11 +154,11 @@ memory usage: 3.6+ MB
 
 ## Math Scores by Grade
 
-- Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-- Create a pandas series for each grade. Hint: use a conditional statement.
-- Group each series by school
-- Combine the series into a dataframe
-- Optional: give the displayed data cleaner formatting
+- Created a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+- Created a pandas series for each grade. 
+- Grouped each series by school
+- Combined the series into a data-frame
+- Gave the displayed data cleaner formatting
 
 |                       | 9th Grade Avg Math Scores | 10th Grade Avg Math Scores | 11th Grade Avg Math Scores | 12th Grade Avg Math Scores |
 | --------------------: | ------------------------: | -------------------------: | -------------------------: | -------------------------: |
@@ -183,11 +182,11 @@ memory usage: 3.6+ MB
 
 ## Reading Score by Grade
 
-- Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-- Create a pandas series for each grade.
-- Group each series by school
-- Combine the series into a dataframe
-- Optional: give the displayed data cleaner formatting
+- Created a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+- Created a pandas series for each grade.
+- Grouped each series by school
+- Combined the series into a data-frame
+- Gave the displayed data cleaner formatting
 
 |                       | 9th Grade Avg Reading Scores | 10th Grade Avg Reading Scores | 11th Grade Avg Reading Scores | 12th Grade Avg Reading Scores |
 | --------------------: | ---------------------------: | ----------------------------: | ----------------------------: | ----------------------------: |
@@ -209,7 +208,9 @@ memory usage: 3.6+ MB
 
 ## Scores by School Spending
 
-- Create a table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
+- Created a table that breaks down school performances based on average Spending Ranges (Per Student). 
+- Used 4 reasonable bins to group school spending. 
+- Included in the table each of the following:
   - Average Math Score
   - Average Reading Score
   - % Passing Math
@@ -218,7 +219,7 @@ memory usage: 3.6+ MB
 
 
 
-### Figure out the Min and Max budget
+### Figured out the Min and Max budget
 
 ```
 578.0
@@ -237,8 +238,9 @@ memory usage: 3.6+ MB
 
 ## Scores by School Size
 
-- Create a table that breaks down school performances based on School Size. Use 4 reasonable bins to group school size.
-- Include in the table each of the following:
+- Created a table that breaks down school performances based on School Size. 
+- Used 4 reasonable bins to group school size.
+- Included in the table each of the following:
   - Average Math Score
   - Average Reading Score
   - % Passing Math
@@ -254,8 +256,8 @@ memory usage: 3.6+ MB
 
 ## Scores by School Type
 
-- Create a table that breaks down school performances based on School Type
-- Include in the table each of the following:
+- Created a table that breaks down school performances based on School Type
+- Included in the table each of the following:
   - Average Math Score
   - Average Reading Score
   - % Passing Math
@@ -267,3 +269,11 @@ memory usage: 3.6+ MB
 | School Type |                |                   |                |                   |                   |
 |     Charter |      83.473852 |         83.896421 |        93.62 % |           96.59 % |           90.43 % |
 |    District |      76.956733 |         80.966636 |        66.55 % |           80.80 % |           53.67 % |
+
+
+
+- - -
+
+### Copyright
+
+Fereshteh Aghaei © 2021. All Rights Reserved.
